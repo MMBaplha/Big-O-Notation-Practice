@@ -39,7 +39,7 @@ function logUpTo(n) {
 }
 ```
 Time Complexity: O(n)
-<!-- Space Complexity: O(1) -->
+
 
 ```jsx
 function logAtLeast10(n) {
@@ -49,7 +49,7 @@ function logAtLeast10(n) {
 }
 ```
 Time Complexity: O(n)
-<!-- Space Complexity: O(1) -->
+
 
 ```jsx
 function logAtMost10(n) {
@@ -59,7 +59,6 @@ function logAtMost10(n) {
 }
 ```
 Time Complexity: O(n)
-<!-- Space Complexity: O(1) -->
 
 
 ```jsx
@@ -74,7 +73,6 @@ function onlyElementsAtEvenIndex(array) {
 }
 ```
 Time Complexity: O(n)
-<!-- Space Complexity: O(n) -->
 
 
 ```jsx
@@ -91,7 +89,7 @@ function subtotals(array) {
 }
 ```
 Time Complexity: O(n^2)
-<!-- Space Complexity: O(n)-->
+
 
 ```jsx
 function vowelCount(str) {
@@ -112,7 +110,7 @@ function vowelCount(str) {
 }
 ```
 Time Complexity: O(n)
-<!-- Space Complexity: O(1) -->
+
 
 ## **Part 3 - short answer**
 
@@ -137,24 +135,25 @@ Answer the following questions
 - O(n)
 
 7. What’s the time complexity of the .sort array method?
-- O(n) depends
+- O(n log n) for worst-case time complexity
 
 8. What’s the time complexity of the .unshift array method?
--
+- O(n)
 
 9. What’s the time complexity of the .push array method?
--
+- O(1)
 
 10. What’s the time complexity of the .splice array method?
--
+- O(n)
 
 11. What’s the time complexity of the .pop array method?
--
+- O(1)
 
 12. What’s the time complexity of the Object.keys() function?
--
+- O(n)
 
 
 ### **BONUS**
 
 1. What’s the space complexity of the Object.keys() function?
+- O(n)
