@@ -132,7 +132,7 @@ Answer the following questions
 - O(n)
 
 6. What’s the time complexity of the .forEach array method?
-- O(n)
+- O(n) 
 
 7. What’s the time complexity of the .sort array method?
 - O(n log n) for worst-case time complexity
